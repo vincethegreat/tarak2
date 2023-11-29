@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raspberry Pi Car Control</title>
+</head>
+<body>
+    <h1>Raspberry Pi Car Control</h1>
+    <p>Click the buttons to control the car:</p>
+    
+    <form action="/forward" method="get">
+        <button type="submit">Forward</button>
+    </form>
+    
+    <form action="/backward" method="get">
+        <button type="submit">Backward</button>
+    </form>
+    
+    <form action="/left" method="get">
+        <button type="submit">Left</button>
+    </form>
+    
+    <form action="/right" method="get">
+        <button type="submit">Right</button>
+    </form>
+    
+    <form action="/stop" method="get">
+        <button type="submit">Stop</button>
+    </form>
+</body>
+</html>
